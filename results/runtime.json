@@ -1,0 +1,35 @@
+[
+  {
+    "config": "bitflip/depol",
+    "code": "bitflip_3q",
+    "channel": "depolarizing",
+    "p": 0.1,
+    "trials": 10000,
+    "loop_s": 1.8293244579981547,
+    "batch_s": 0.012437666999176145,
+    "speedup": 147.07938861197417,
+    "reduction_pct": 99.32009507964558
+  },
+  {
+    "config": "phaseflip/depol",
+    "code": "phaseflip_3q",
+    "channel": "depolarizing",
+    "p": 0.1,
+    "trials": 10000,
+    "loop_s": 3.108803708993946,
+    "batch_s": 0.02018395900086034,
+    "speedup": 154.02348512803823,
+    "reduction_pct": 99.35074836206394
+  },
+  {
+    "config": "shor/depol",
+    "code": "shor_9q",
+    "channel": "depolarizing",
+    "p": 0.1,
+    "trials": 10000,
+    "loop_s": 10.649211916999775,
+    "batch_s": 3.3971542920044158,
+    "speedup": 3.1347448486705156,
+    "reduction_pct": 68.09947704598311
+  }
+]
